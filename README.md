@@ -40,11 +40,12 @@ This options selecting prompt appears to the user.Based on the user's wish he wi
 Checking the inserted Employees details inside the database
 
 ![s1](https://github.com/lakshmicdgithub/EmployeeManagementSystem1/assets/148479768/a49674f8-a028-49d4-a1c6-896baed91b8c)
-Here you can see that employee details are inserted successfully
+
+Here you can see that employee details are inserted successfully.
 
 
 (2) Updating the Employee details
-In this project I upadted the name and salary of the employee having id 200.
+In this project I upadted the FirstName, LastName, EmailAddress and ContactNumber of the employee having id 5.
 
 Like this we can update the other employee details also
 
@@ -54,10 +55,10 @@ Checking the Updated Employees details inside the database
 
 ![s2](https://github.com/lakshmicdgithub/EmployeeManagementSystem1/assets/148479768/53904b60-2873-4e8a-9666-1cee20652ba1)
 
-Here you can see that employee details has been updated successfully
+Here you can see that employee details has been updated successfully.
 
 (3) Deleting the Employee details from the databse
-In this project we can delete the employees's details from the database based on their employee id.In this case i deleted the details of the employee having id as 7
+In this project we can delete the employees's details from the database based on their employee id. In this case i deleted the details of the employee having id as 7
 
 ![Screenshot (90)](https://github.com/lakshmicdgithub/EmployeeManagementSystem1/assets/148479768/9ba3e971-7dc0-49ff-989e-4809260d5b0c)
 
@@ -65,11 +66,52 @@ Checking the Deleted Employees details inside the database
 
 ![s3](https://github.com/lakshmicdgithub/EmployeeManagementSystem1/assets/148479768/ecad00e1-681d-41cb-9502-ddd98d856a48)
 
+Here you can see that employee details are deleted successfully.
+
+
 (4) Displaying the Employee details from the database
 
 Shows a list of all employees in a employee1Table, with their personal and employment details.
 
 ![Screenshot (92)](https://github.com/lakshmicdgithub/EmployeeManagementSystem1/assets/148479768/c2c8c7f6-650f-4f51-9d5b-13dac9ddbf6b)
+
+How I Connected this Java application to Database
+
+Before connecting to the database we need to have the following details they are
+
+(1) Port number : 3307
+
+(2) Driver software url : "jdbc:mysql://localhost:3307/jdbc_employee"
+
+(3) Database user name : "root"
+
+(4) Data base password : "Lakshmi@2001"
+
+(5) Database name : employee
+
+Here are the following Steps to be followed
+
+(1) Loading the driver software
+
+(2) Creating the connection object
+
+(3) Creating the Statement object
+
+(4) Executing the Query Statement
+
+(5) Process the result
+
+(6) Close the connection
+
+
+Run Time Environment
+
+I used Eclipse IDE for the developement and execution of this project
+
+
+Jar files
+
+I used Mysql Connector Jar file in this project
 
 
 
