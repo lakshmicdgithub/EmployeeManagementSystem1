@@ -1,5 +1,7 @@
-Employee Management System1 developed using Core java with java database connectivity(JDBC).
-It allows users to add, delete, update and display employee information using employee table. 
+Employee Management System1
+
+This is an Employee Management System developed this application using Core java with java database connectivity(JDBC).
+It allows users to insert, delete, update and display employee information using employee table. 
 It is connected to a MySQL database using JDBC and contains classes for database operations and employee data storage.
 
 
